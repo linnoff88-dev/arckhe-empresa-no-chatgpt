@@ -30,7 +30,7 @@ class TestFicha(unittest.TestCase):
         self.assertEqual(cp.conferir(f), [])
 
     def test_site_igual_com_www_e_barra(self):
-        self.assertEqual(cp.normal("site", "https://www.inema.club/"), "inema.club")
+        self.assertEqual(cp.normal("site", "https://www.ARCKHÉ AI/"), "ARCKHÉ AI")
 
     def test_telefone_diferente_reprova(self):
         f = self.ficha()
@@ -46,13 +46,13 @@ class TestFicha(unittest.TestCase):
 
 class TestTxt(unittest.TestCase):
     def test_nome_completo(self):
-        self.assertEqual(tc.nome_completo("openai-business-profile", "Inema.club"),
-                         "openai-business-profile.inema.club")
-        self.assertEqual(tc.nome_completo("@", "inema.club"), "inema.club")
-        self.assertEqual(tc.nome_completo("x.inema.club", "inema.club"), "x.inema.club")
+        self.assertEqual(tc.nome_completo("openai-business-profile", "ARCKHÉ AI"),
+                         "openai-business-profile.ARCKHÉ AI")
+        self.assertEqual(tc.nome_completo("@", "ARCKHÉ AI"), "ARCKHÉ AI")
+        self.assertEqual(tc.nome_completo("x.ARCKHÉ AI", "ARCKHÉ AI"), "x.ARCKHÉ AI")
 
     def test_payload_tira_aspas(self):
-        p = tc.payload("openai-business-profile", "inema.club", '"openai-business-profile=ungi_abc"')
+        p = tc.payload("openai-business-profile", "ARCKHÉ AI", '"openai-business-profile=ungi_abc"')
         self.assertEqual(p["type"], "TXT")
         self.assertEqual(p["content"], "openai-business-profile=ungi_abc")
 

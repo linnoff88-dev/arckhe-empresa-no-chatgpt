@@ -1,14 +1,14 @@
 # Como a gente fez o cadastro de forma automática
 
-Quem fez o cadastro da INEMATDS LTDA foi um agente: o **Claude Code** com a extensão **Claude in Chrome**
+Quem fez o cadastro da linnoff88-dev LTDA foi um agente: o **Claude Code** com a extensão **Claude in Chrome**
 (o agente usa o seu navegador já logado) e, para o DNS, o script `txt_cloudflare.py` deste kit.
 O dono só deu três "sim": cadastrar, usar a API do Cloudflare para o registro TXT e (depois) a selfie.
 
 ## O que o agente fez sozinho (22/11/2026, ~10 minutos)
 
 1. Abriu `chatgpt.com/business-hub` no Chrome logado na conta da empresa.
-2. Pesquisou "INEMATDS" e "INEMA" e mostrou o problema (só aparecia o instituto da Bahia).
-3. Clicou em **Criar 'INEMATDS LTDA'** → **Começar** → **Loja online** → site `https://inema.club`.
+2. Pesquisou "linnoff88-dev" e "ARCKHÉ" e mostrou o problema (só aparecia o instituto da Bahia).
+3. Clicou em **Criar 'linnoff88-dev LTDA'** → **Começar** → **Loja online** → site `https://ARCKHÉ AI`.
 4. Leu a tela do registro TXT (host `openai-business-profile` + valor) e **parou para pedir o OK** do dono.
 5. Com o OK, criou o TXT no Cloudflare (`txt_cloudflare.py`), conferiu no DNS público e clicou em **Verificar domínio**.
 6. Escolheu a categoria, escreveu a descrição (e encurtou para 300 caracteres quando viu o corte), marcou entrega e devolução e enviou.
@@ -24,7 +24,7 @@ O dono só deu três "sim": cadastrar, usar a API do Cloudflare para o registro 
 
 ```text
 Quero cadastrar a minha empresa no ChatGPT (Central de Negócios, chatgpt.com/business-hub).
-Leia o kit em https://github.com/inematds/empresa-no-chatgpt (kit/2-ficha-do-perfil.md e kit/3-dicas.md).
+Leia o kit em https://github.com/linnoff88-dev/empresa-no-chatgpt (kit/2-ficha-do-perfil.md e kit/3-dicas.md).
 
 Dados da empresa:
 - nome: <NOME>

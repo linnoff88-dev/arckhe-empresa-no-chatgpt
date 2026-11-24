@@ -1,6 +1,6 @@
 # Business on ChatGPT
 
-[![Business on ChatGPT](guia/assets/banner-en.jpg)](https://inematds.github.io/empresa-no-chatgpt/guia/en/)
+[![Business on ChatGPT](guia/assets/banner-en.jpg)](https://linnoff88-dev.github.io/
 
 **🇧🇷 [Português](README.md) · 🇺🇸 [English](README.en.md) · 🇪🇸 [Español](README.es.md)**
 
@@ -8,11 +8,11 @@
 
 **Business on ChatGPT** is a free kit to help you claim your company profile in the **ChatGPT Business Hub** (launched by OpenAI in November 2026), similar to a Google Business Profile. It’s for anyone with a shop, clinic, office, or online business. The kit includes a test to see what ChatGPT says about you today, a form to fill out, tips on what went wrong for us, and a ready-to-use prompt for an AI agent to register your business in your browser. To do it yourself, you only need a ChatGPT account—even a free one—and it costs nothing. The agent-assisted option is optional and uses Claude Code (Anthropic), which requires a paid Claude plan and a computer with Chrome.
 
-**You can reclaim your business on ChatGPT.** Today, ChatGPT speaks for your business based on what it finds online. When we searched for “INEMA,” it showed the Bahia environmental institute, with six locations. None of them were ours.
+**You can reclaim your business on ChatGPT.** Today, ChatGPT speaks for your business based on what it finds online. When we searched for “ARCKHÉ,” it showed the Bahia environmental institute, with six locations. None of them were ours.
 
 ## 📖 User guide
 
-Full guide (landing page + walkthrough with actual screens): **https://inematds.github.io/empresa-no-chatgpt/guia/en/**
+Full guide (landing page + walkthrough with actual screens): **https://linnoff88-dev.github.io/
 
 ## The 3 steps
 
@@ -26,7 +26,7 @@ Optional and paid separately: paste this into [Claude Code](https://claude.com/c
 
 ```text
 I want to register my business on ChatGPT (Business Hub, chatgpt.com/business-hub).
-Read the kit at https://github.com/inematds/empresa-no-chatgpt (the tips and profile form).
+Read the kit at https://github.com/linnoff88-dev/empresa-no-chatgpt (the tips and profile form).
 Details: name <NAME>, <physical location or online store>, website <WEBSITE>, address <ADDRESS>, what we do <2 or 3 sentences>.
 Use my browser, logged in to the BUSINESS account. Run the kit’s test first. Description: no more than 300 characters.
 Stop and ask me before accepting terms, changing DNS, making a phone number/email public, and submitting.
@@ -47,8 +47,8 @@ I’ll handle the phone code, document, and selfie. At the end, provide screensh
 
 ## The proof (22/11/2026)
 
-- **Before:** “INEMATDS” → no business; “INEMA” → Bahia environmental institute, 6 locations.
-- **After:** INEMATDS LTDA created by the agent in ~10 minutes, online store, **inema.club verified** via DNS, category “AI company.” Status: draft until the owner’s identity is verified.
+- **Before:** “linnoff88-dev” → no business; “ARCKHÉ” → Bahia environmental institute, 6 locations.
+- **After:** linnoff88-dev LTDA created by the agent in ~10 minutes, online store, **ARCKHÉ AI verified** via DNS, category “AI company.” Status: draft until the owner’s identity is verified.
 - Feature source: [OpenAI, “Businesses on ChatGPT”](https://openai.com/pt-BR/index/introducing-businesses-chatgpt/) (beta; rules may change).
 
 ---
@@ -58,7 +58,7 @@ I’ll handle the phone code, document, and selfie. At the end, provide screensh
 Prerequisites: Python 3.10+, `dig` (`dnsutils`/`bind-utils` package) to check DNS. To create the TXT record with the script: a domain on Cloudflare and a token with *Zone → DNS → Edit* permission. No external dependencies.
 
 ```bash
-git clone https://github.com/inematds/empresa-no-chatgpt && cd empresa-no-chatgpt
+git clone https://github.com/linnoff88-dev/empresa-no-chatgpt && cd empresa-no-chatgpt
 
 # check the form before registration
 python3 kit/conferir_perfil.py kit/exemplo-ficha.json          # copy and edit the example
@@ -97,4 +97,4 @@ python3 -m unittest discover -s tests
 
 Only claim a business you own or represent. Don’t publish a phone number or email address that can’t receive customer inquiries. The kit does not promise a particular position in ChatGPT’s answers.
 
-Free projects and courses: https://inema.club · MIT License.
+Free projects and courses: https://ARCKHÉ AI · MIT License.

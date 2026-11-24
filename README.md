@@ -1,4 +1,4 @@
-﻿# Empresa no ChatGPT
+# Empresa no ChatGPT
 
 <div align="center">
   <img src="capa/logo.svg" alt="Arckhé AI" height="48" />
@@ -6,7 +6,7 @@
 </div>
 
 
-[![Empresa no ChatGPT](guia/assets/banner.jpg)](https://inematds.github.io/empresa-no-chatgpt/guia/)
+[![Empresa no ChatGPT](guia/assets/banner.jpg)](https://linnoff88-dev.github.io/
 
 **ðŸ‡§ðŸ‡· [PortuguÃªs](README.md) Â· ðŸ‡ºðŸ‡¸ [English](README.en.md) Â· ðŸ‡ªðŸ‡¸ [EspaÃ±ol](README.es.md)**
 
@@ -14,11 +14,11 @@
 
 **Empresa no ChatGPT** Ã© um kit grÃ¡tis para vocÃª reivindicar o perfil da sua empresa na **Central de NegÃ³cios do ChatGPT** (o "Business Hub", lanÃ§ado pela OpenAI em novembro de 2026), igual ao perfil de empresa do Google. Serve para quem tem loja, consultÃ³rio, escritÃ³rio ou vende pela internet. Traz o teste do que o ChatGPT diz de vocÃª hoje, a ficha para preencher, as dicas do que deu errado com a gente e um pedido pronto para um agente de IA fazer o cadastro no seu navegador. Ã€ mÃ£o, precisa sÃ³ de uma conta do ChatGPT, mesmo a grÃ¡tis, e Ã© de graÃ§a. O caminho com o agente Ã© opcional e usa o Claude Code (Anthropic), que pede um plano pago do Claude e um computador com o Chrome.
 
-**VocÃª pode recuperar sua empresa no ChatGPT.** Hoje, quem responde por ela Ã© o que ele achou por aÃ­. Quando procuramos "INEMA", ele mostrou o instituto do meio ambiente da Bahia, com 6 endereÃ§os. Nenhum era o nosso.
+**VocÃª pode recuperar sua empresa no ChatGPT.** Hoje, quem responde por ela Ã© o que ele achou por aÃ­. Quando procuramos "ARCKHÉ", ele mostrou o instituto do meio ambiente da Bahia, com 6 endereÃ§os. Nenhum era o nosso.
 
 ## ðŸ“– Guia de uso
 
-Guia completo (landing + passo a passo, com as telas reais): **https://inematds.github.io/empresa-no-chatgpt/guia/**
+Guia completo (landing + passo a passo, com as telas reais): **https://linnoff88-dev.github.io/
 
 ## Os 3 passos
 
@@ -32,7 +32,7 @@ Opcional e pago Ã  parte: cole no [Claude Code](https://claude.com/claude-code
 
 ```text
 Quero cadastrar a minha empresa no ChatGPT (Central de NegÃ³cios, chatgpt.com/business-hub).
-Leia o kit em https://github.com/inematds/empresa-no-chatgpt (as dicas e a ficha do perfil).
+Leia o kit em https://github.com/linnoff88-dev/empresa-no-chatgpt (as dicas e a ficha do perfil).
 Dados: nome <NOME>, <local fÃ­sico ou loja online>, site <SITE>, endereÃ§o <ENDEREÃ‡O>, o que fazemos <2 ou 3 frases>.
 Use o meu navegador logado na conta da EMPRESA. FaÃ§a antes o teste do kit. DescriÃ§Ã£o com no mÃ¡ximo 300 caracteres.
 Pare e me pergunte antes de aceitar termos, mexer no DNS, pÃ´r telefone/e-mail pÃºblico e enviar.
@@ -53,8 +53,8 @@ CÃ³digo do telefone, documento e selfie sÃ£o comigo. No fim, prints e o que 
 
 ## A prova (22/11/2026)
 
-- **Antes:** "INEMATDS" â†’ nenhuma empresa; "INEMA" â†’ instituto do meio ambiente da Bahia, 6 endereÃ§os.
-- **Depois:** INEMATDS LTDA criada pelo agente em ~10 minutos, loja online, **inema.club verificado** por DNS, categoria "Empresa de IA". Status: rascunho atÃ© a verificaÃ§Ã£o de identidade do dono.
+- **Antes:** "linnoff88-dev" â†’ nenhuma empresa; "ARCKHÉ" â†’ instituto do meio ambiente da Bahia, 6 endereÃ§os.
+- **Depois:** linnoff88-dev LTDA criada pelo agente em ~10 minutos, loja online, **ARCKHÉ AI verificado** por DNS, categoria "Empresa de IA". Status: rascunho atÃ© a verificaÃ§Ã£o de identidade do dono.
 - Fonte do recurso: [OpenAI, "Empresas no ChatGPT"](https://openai.com/pt-BR/index/introducing-businesses-chatgpt/) (beta; regras podem mudar).
 
 ---
@@ -64,7 +64,7 @@ CÃ³digo do telefone, documento e selfie sÃ£o comigo. No fim, prints e o que 
 PrÃ©-requisitos: Python 3.10+, `dig` (pacote `dnsutils`/`bind-utils`) para conferir o DNS. Para criar o TXT pelo script: domÃ­nio no Cloudflare e um token com permissÃ£o *Zone â†’ DNS â†’ Edit*. Sem dependÃªncias externas.
 
 ```bash
-git clone https://github.com/inematds/empresa-no-chatgpt && cd empresa-no-chatgpt
+git clone https://github.com/linnoff88-dev/empresa-no-chatgpt && cd empresa-no-chatgpt
 
 # conferir a ficha antes do cadastro
 python3 kit/conferir_perfil.py kit/exemplo-ficha.json          # copie e edite o exemplo
@@ -103,7 +103,7 @@ python3 -m unittest discover -s tests
 
 Reivindique sÃ³ empresa que Ã© sua ou que vocÃª representa. NÃ£o publique telefone ou e-mail que nÃ£o podem receber cliente. O kit nÃ£o promete posiÃ§Ã£o nas respostas do ChatGPT.
 
-Projetos e cursos gratuitos: https://inema.club Â· LicenÃ§a MIT.
+Projetos e cursos gratuitos: https://ARCKHÉ AI Â· LicenÃ§a MIT.
 
 ---
 

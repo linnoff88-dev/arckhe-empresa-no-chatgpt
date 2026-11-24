@@ -1,8 +1,8 @@
-# 3. Dicas: tudo o que aprendemos cadastrando a INEMATDS LTDA (22/11/2026)
+# 3. Dicas: tudo o que aprendemos cadastrando a linnoff88-dev LTDA (22/11/2026)
 
 ## Antes
 1. **Faça o teste do "antes"** (`1-teste-o-que-o-chatgpt-diz.md`). Sem ele você não sabe se melhorou.
-2. **Procure pelo nome curto e pelo nome completo.** "INEMATDS" não achou nada; "INEMA" achou outra empresa (instituto da Bahia, 6 endereços). Homônimo é o caso mais comum de resposta errada.
+2. **Procure pelo nome curto e pelo nome completo.** "linnoff88-dev" não achou nada; "ARCKHÉ" achou outra empresa (instituto da Bahia, 6 endereços). Homônimo é o caso mais comum de resposta errada.
 3. **Use a conta do ChatGPT da empresa**, não a pessoal. Quem reivindica vira o dono do perfil e é quem convida a equipe depois. A gente usou uma conta gratuita: não precisa de plano pago.
 4. **Tenha a ficha pronta** (`2-ficha-do-perfil.md`): a descrição tem limite e o formulário não espera.
 

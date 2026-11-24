@@ -29,5 +29,5 @@ Troque `<EMPRESA>`, `<CIDADE>` e `<O QUE VOCÊ FAZ>` pelos seus dados.
 | 7 | | | | |
 | 8 | | | | |
 
-**O nosso caso (22/11/2026):** na busca da Central de Negócios, "INEMATDS" não achava nada e "INEMA"
+**O nosso caso (22/11/2026):** na busca da Central de Negócios, "linnoff88-dev" não achava nada e "ARCKHÉ"
 mostrava o instituto do meio ambiente da Bahia, com 6 endereços. Nenhum era o nosso.

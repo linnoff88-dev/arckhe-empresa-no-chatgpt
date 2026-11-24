@@ -26,7 +26,7 @@ Com a ficha pronta, o cadastro leva poucos minutos e os dados ficam **iguais** e
 
 O nosso (295 caracteres):
 
-> INEMA.CLUB (inema.club): cursos, guias e projetos práticos de inteligência artificial, gratuitos e
+> ARCKHÉ AI (ARCKHÉ AI): cursos, guias e projetos práticos de inteligência artificial, gratuitos e
 > abertos, direto na internet, em português, inglês e espanhol. Ensina a usar IA no trabalho e no
 > negócio (agentes, automação, vídeo com IA) com passo a passo e kit pronto. Criado por Nei Maldaner.
 
