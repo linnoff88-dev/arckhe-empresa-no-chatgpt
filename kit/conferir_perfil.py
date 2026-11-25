@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Confere a ficha do perfil antes do cadastro no ChatGPT.
 
-- descrição com no máximo 300 caracteres (o formulário corta sem avisar);
+- descriçêo com no máximo 300 caracteres (o formulário corta sem avisar);
 - nome, site e telefone iguais em todas as fontes (google, site, chatgpt...);
 - campos obrigatórios para o tipo de atendimento.
 
@@ -30,7 +30,7 @@ def conferir(ficha: dict) -> list[str]:
     erros = []
     desc = ficha.get("descricao", "")
     if len(desc) > LIMITE:
-        erros.append(f"descrição com {len(desc)} caracteres (máximo {LIMITE}); o ChatGPT corta em: "
+        erros.append(f"descriçêo com {len(desc)} caracteres (máximo {LIMITE}); o ChatGPT corta em: "
                      f"...{desc[LIMITE-20:LIMITE]!r}")
     tipo = ficha.get("tipo")
     if tipo not in ("local", "online"):
@@ -58,7 +58,7 @@ def main(argv=None) -> int:
         return 1
     ficha = json.load(open(argv[0], encoding="utf-8"))
     erros = conferir(ficha)
-    print(f"descrição: {len(ficha.get('descricao', ''))}/{LIMITE} caracteres")
+    print(f"descriçêo: {len(ficha.get('descricao', ''))}/{LIMITE} caracteres")
     for e in erros:
         print("✗", e)
     if not erros:

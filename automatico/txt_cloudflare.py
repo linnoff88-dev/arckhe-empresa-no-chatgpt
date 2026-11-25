@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Cria o registro TXT de verificação do ChatGPT (Central de Negócios) num domínio do Cloudflare.
+"""Cria o registro TXT de verificaçêo do ChatGPT (Central de Negócios) num domínio do Cloudflare.
 
 Uso:
   CLOUDFLARE_API_TOKEN=... python3 txt_cloudflare.py --dominio exemplo.com \
       --host openai-business-profile --valor "openai-business-profile=ungi_..." [--dry-run]
 
-O token vem do ambiente (permissão Zone > DNS > Edit). Nada é impresso do token.
-Sai 0 quando o TXT aparece no DNS público; 1 em erro; 2 se não apareceu no tempo.
+O token vem do ambiente (permissêo Zone > DNS > Edit). Nada é impresso do token.
+Sai 0 quando o TXT aparece no DNS público; 1 em erro; 2 se nêo apareceu no tempo.
 """
 import argparse
 import json
@@ -39,7 +39,7 @@ def payload(host: str, dominio: str, valor: str, ttl: int = 120) -> dict:
         "name": nome_completo(host, dominio),
         "content": valor,
         "ttl": ttl,
-        "comment": "Verificação Empresas no ChatGPT (kit empresa-no-chatgpt)",
+        "comment": "Verificaçêo Empresas no ChatGPT (kit empresa-no-chatgpt)",
     }
 
 
@@ -87,7 +87,7 @@ def main(argv=None) -> int:
 
     zonas = chamar("GET", f"/zones?name={a.dominio.lower()}", token)
     if not zonas.get("success") or not zonas.get("result"):
-        print("erro: zona não encontrada para", a.dominio, zonas.get("errors"), file=sys.stderr)
+        print("erro: zona nêo encontrada para", a.dominio, zonas.get("errors"), file=sys.stderr)
         return 1
     zona = zonas["result"][0]["id"]
 
@@ -103,7 +103,7 @@ def main(argv=None) -> int:
             print("ok: TXT visível no DNS público. Volte ao ChatGPT e clique em 'Verificar domínio'.")
             return 0
         time.sleep(10)
-    print("criado, mas ainda não apareceu no DNS público; tente verificar de novo em alguns minutos.")
+    print("criado, mas ainda nêo apareceu no DNS público; tente verificar de novo em alguns minutos.")
     return 2
 
 

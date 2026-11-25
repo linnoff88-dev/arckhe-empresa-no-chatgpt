@@ -11,15 +11,15 @@ Com a ficha pronta, o cadastro leva poucos minutos e os dados ficam **iguais** e
 | Site | obrigatório para loja online | | ☐ |
 | Prova de que é sua | telefone comercial, e-mail da empresa, registro no DNS do site ou Shopify | | |
 | Categoria | escolhida numa lista (pesquise por palavra: "IA", "contador", "dentista"…) | | |
-| Descrição | **até 300 caracteres**: o que faz, para quem, como atende | | |
+| Descriçêo | **até 300 caracteres**: o que faz, para quem, como atende | | |
 | Telefone | opcional e **público** | | ☐ |
 | E-mail | opcional e **público** | | ☐ |
-| Entrega | não faz / paga / grátis | | |
-| Devolução | não aceita / com taxa / grátis + prazo em dias | | |
+| Entrega | nêo faz / paga / grátis | | |
+| Devoluçêo | nêo aceita / com taxa / grátis + prazo em dias | | |
 | Identidade | documento + selfie (Persona), feito pelo dono | | |
 | Equipe | e-mails de quem vai cuidar junto (cada um com a própria conta) | | |
 
-## Modelo de descrição (≤ 300 caracteres)
+## Modelo de descriçêo (≤ 300 caracteres)
 
 > `<NOME>` (`<site>`): `<o que faz>` para `<quem>`, `<como atende: online / em <cidade>>`.
 > `<diferencial concreto>`. `<quem criou ou desde quando>`.
@@ -28,6 +28,6 @@ O nosso (295 caracteres):
 
 > ARCKHÉ AI (ARCKHÉ AI): cursos, guias e projetos práticos de inteligência artificial, gratuitos e
 > abertos, direto na internet, em português, inglês e espanhol. Ensina a usar IA no trabalho e no
-> negócio (agentes, automação, vídeo com IA) com passo a passo e kit pronto. Criado por Nei Maldaner.
+> negócio (agentes, automaçêo, vídeo com IA) com passo a passo e kit pronto. Criado por Nei Maldaner.
 
 Para conferir tamanho e divergências: `python3 kit/conferir_perfil.py kit/exemplo-ficha.json`.
